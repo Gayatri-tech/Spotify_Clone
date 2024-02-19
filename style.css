@@ -40,8 +40,9 @@ nav ul li {
   width: 70%;
   border-radius: 12px;
   padding: 34px;
-  background-image: url(./Media/bg.jpeg);
+  background-image: url(./Media/bg.jpg);
   background-size: cover;
+  background-position: center;
 }
 .bottom {
   display: flex;
@@ -62,6 +63,7 @@ nav ul li {
 }
 #myProgressBar {
   width: 80vw;
+  cursor: pointer;
 }
 .songItemContainer {
   margin-top: 74px;
@@ -69,6 +71,7 @@ nav ul li {
 .songItem {
   height: 50px;
   display: flex;
+  width: 80%;
   background-color: white;
   color: black;
   margin: 12px 0;
@@ -86,4 +89,13 @@ nav ul li {
 }
 .timeStamp i {
   cursor: pointer;
+}
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Chakra Petch", sans-serif;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
 }
