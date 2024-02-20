@@ -9,52 +9,52 @@ let masterSongName = document.getElementById("masterSongName");
 let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
   {
-    songName: "Warriyo - Mortals",
+    songName: "Mortals - Warriyo",
     filePath: "./Songs/1.mp3",
     coverPath: "./Cover_photos/1.jpg",
   },
   {
-    songName: "Cielo - Huma-Huma",
+    songName: "Twisted - Bussin`",
     filePath: "./Songs/2.mp3",
     coverPath: "./Cover_photos/2.jpg",
   },
   {
-    songName: "Deaf Kev - Invincible",
+    songName: "Invincible - Deaf Kev",
     filePath: "./Songs/3.mp3",
     coverPath: "./Cover_photos/3.jpg",
   },
   {
-    songName: "Different Heaven - My Heart",
+    songName: "My Heart - Different Heaven",
     filePath: "./Songs/4.mp3",
     coverPath: "./Cover_photos/4.jpg",
   },
   {
-    songName: "Janji Heroes - Johnning",
+    songName: "Heroes Tonight - Janji",
     filePath: "./Songs/5.mp3",
     coverPath: "./Cover_photos/5.jpg",
   },
   {
-    songName: "Chori Chori Dil Tera",
+    songName: "Calling Out Your Name - Mania",
     filePath: "./Songs/6.mp3",
     coverPath: "./Cover_photos/6.jpg",
   },
   {
-    songName: "Pyaar Ki Kashti Me",
+    songName: "Keep You - Rameses B",
     filePath: "./Songs/7.mp3",
     coverPath: "./Cover_photos/7.jpg",
   },
   {
-    songName: "Sochenge Tumhe Pyaar",
+    songName: "Never Let You Down - Itro",
     filePath: "./Songs/8.mp3",
     coverPath: "./Cover_photos/8.jpg",
   },
   {
-    songName: "Kitni Hasrat Hai Hume",
+    songName: "The Rocks - Maze",
     filePath: "./Songs/9.mp3",
     coverPath: "./Cover_photos/9.jpg",
   },
   {
-    songName: "Thoda Sa Pyaar Hua Hai",
+    songName: "Think About - Yanvince",
     filePath: "./Songs/10.mp3",
     coverPath: "./Cover_photos/10.jpg",
   },
@@ -110,6 +110,7 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach(
     });
   }
 );
+// Music List sync
 document.getElementById("next").addEventListener("click", () => {
   if (songIndex >= 9) {
     songIndex = 0;
